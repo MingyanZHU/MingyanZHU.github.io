@@ -3,7 +3,11 @@
   "short_name": "ZMY Blog",
   "description": "A personal blog by engineer",
   "icons": [{
+<<<<<<< HEAD
     "src": "icons/my_high.png",
+=======
+    "src": "icons/my.png",
+>>>>>>> 29a863c76aa43ee5c0ffca8b6aa0eed2c297c52e
     "sizes": "400x400",
     "type": "image/png"
   }],
