@@ -40,3 +40,23 @@ description: "Everyone does magic and everyone has his own tricks."
     {% endif %}
 </ul>
 {% endif %}
+
+<!-- Gitalk 评论 start  -->
+
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+		clientID: '84b166422b7f08a352eb',
+		clientSecret: '78f379822f1ea28779c1be0d9d20f5819e067d39',
+		repo: '1160300314.github.io',
+		owner: '1160300314',
+		admin: ['1160300314'],
+		id: window.location.pathname,
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
